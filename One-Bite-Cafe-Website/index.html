@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Bite Cafe | Cozy Dining & Quick Bites in Kalaburagi</title>
+  <meta name="description" content="One Bite Cafe at Swastik Arcade, Kusnoor Rd, Kalaburagi. Rated 5.0/5 for great ambience, quick bites, small plates, dine-in, takeaway & delivery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-wrap">
+      <a href="#" class="logo">
+        <span class="logo-badge">OB</span>
+        <span class="logo-text">One Bite Cafe</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Experience</a></li>
+        <li><a href="#menu">Quick Bites Menu</a></li>
+        <li><a href="#reviews">Guest Reviews</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="tel:+918861636951" class="btn btn-outline">Call Cafe</a>
+        <a href="https://wa.me/918861636951?text=Hi%20One%20Bite%20Cafe%2C%20I%20would%20like%20to%20place%20an%20order%20or%20reserve%20a%20table." target="_blank" rel="noopener" class="btn btn-primary">WhatsApp Us</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="status-pill">
+          <span class="status-dot" id="statusDot"></span>
+          <span id="liveStatusText">Checking live hours...</span>
+        </div>
+        <h1>Cozy Vibes &amp; <span>Unforgettable</span> Quick Bites.</h1>
+        <p>
+          Welcome to One Bite Cafe at Swastik Arcade, Kusnoor Road, Kalaburagi.
+          A quiet, trendy neighborhood hangout crafted for delicious small plates, warm conversations, and effortless dine-in, takeaway, or delivery.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary">Explore Menu &amp; Order</a>
+          <a href="https://www.google.com/maps/place/One+Bite+Cafe/@17.3204049,76.8566252,17z" target="_blank" rel="noopener" class="btn btn-outline">Get Directions</a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <strong>5.0 &#9733;</strong>
+            <span>Rated on Google (29 Reviews)</span>
+          </div>
+          <div class="metric-item">
+            <strong>12 PM – 10 PM</strong>
+            <span>Open Tue – Sun (Closed Mon)</span>
+          </div>
+          <div class="metric-item">
+            <strong>3 Ways</strong>
+            <span>Dine-In, Takeout &amp; Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80" alt="Warm cozy cafe interior with coffee and small plates" />
+        </div>
+        <div class="floating-tag">
+          <p>Kusnoor Road, Kalaburagi</p>
+          <strong>1st Floor, Swastik Arcade</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights & Amenities -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Why Guests Love Us</span>
+        <h2>Designed for Comfort, Cravings &amp; Catch-Ups</h2>
+        <p>Whether you are dropping by for a quick solo snack, an evening hangout with friends, or a relaxed family outing, every detail is built around your comfort.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">&#9749;</div>
+          <h3>Cozy &amp; Quiet Ambience</h3>
+          <p>Casual, trendy, and peaceful indoor seating on the 1st floor—ideal for unhurried conversations and relaxing evenings.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">&#127869;</div>
+          <h3>Fresh Quick Bites</h3>
+          <p>Handcrafted small plates, loaded sandwiches, crispy starters, and refreshing cafe beverages prepared fresh to order.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">&#128106;</div>
+          <h3>Groups &amp; Kids Welcome</h3>
+          <p>Spacious table setups tailored for friend groups, students, and families with kids—plus plenty of free street parking.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">&#128241;</div>
+          <h3>Seamless Service</h3>
+          <p>Choose dine-in, quick takeout, or doorstep delivery with instant UPI, NFC mobile payments, and WhatsApp ordering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu & Quick WhatsApp Order -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Curated Favorites</span>
+        <h2>Quick Bites &amp; Small Plates</h2>
+        <p>Tap "+ Add to Order" on any item to build your bag and send your order directly to our kitchen on WhatsApp.</p>
+      </div>
+
+      <div class="filter-tabs" id="filterTabs">
+        <button class="tab-btn active" data-filter="all">All Favorites</button>
+        <button class="tab-btn" data-filter="bites">Small Plates &amp; Fries</button>
+        <button class="tab-btn" data-filter="mains">Sandwiches &amp; Burgers</button>
+        <button class="tab-btn" data-filter="sips">Coffee &amp; Coolers</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <!-- Guest Reviews -->
+  <section id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">5.0 &#9733; Google Rating</span>
+        <h2>Loved by Kalaburagi Foodies</h2>
+        <p>Consistent 5-star feedback from our local community on Kusnoor Road.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Great ambience and super cozy spot near Doctor's Colony. The quick bites are fresh, flavorful, and served right on time."</p>
+          <div class="reviewer">— Verified Google Reviewer &bull; Dine-In</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"One of the best peaceful cafes on Kusnoor Road to hang out with friends. Easy parking outside and warm hospitality."</p>
+          <div class="reviewer">— Verified Google Reviewer &bull; Group Visit</div>
+        </div>
+        <div class="review-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Clean, trendy interiors and delicious small plates at very pocket-friendly prices. Definitely coming back again!"</p>
+          <div class="reviewer">— Verified Google Reviewer &bull; Takeout</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit & Location -->
+  <section id="visit">
+    <div class="container">
+      <div class="visit-grid">
+        <div>
+          <span class="eyebrow">Find Us in Kalaburagi</span>
+          <h2 style="font-size: 2.35rem; color: var(--accent-forest);">Visit One Bite Cafe</h2>
+
+          <div class="info-list">
+            <div class="info-row">
+              <strong>Address</strong>
+              <span>1st Floor, Swastik Arcade, Kusnoor Rd, Doctor's Colony, Tilak Nagar, Kusnoor, Kalaburagi, Karnataka 585105</span>
+            </div>
+            <div class="info-row">
+              <strong>Opening Hours</strong>
+              <span>Tuesday – Sunday: 12:00 PM – 10:00 PM<br />Monday: Closed</span>
+            </div>
+            <div class="info-row">
+              <strong>Phone &amp; WhatsApp</strong>
+              <a href="tel:+918861636951">+91 88616 36951</a>
+            </div>
+            <div class="info-row">
+              <strong>Amenities &amp; Payments</strong>
+              <span>Dine-in &bull; Takeout &bull; Delivery &bull; Free Street Parking &bull; UPI / NFC Mobile Payments</span>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+            <a href="https://www.google.com/maps/place/One+Bite+Cafe/@17.3204049,76.8566252,17z" target="_blank" rel="noopener" class="btn btn-primary">Open in Google Maps</a>
+            <a href="tel:+918861636951" class="btn btn-outline">Call +91 88616 36951</a>
+          </div>
+        </div>
+
+        <iframe
+          class="map-frame"
+          title="One Bite Cafe Location Map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=17.3204049,76.8566252&hl=en&z=16&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="brand-serif" style="font-size: 1.65rem; color: var(--accent-gold);">One Bite Cafe</div>
+      <p>1st Floor, Swastik Arcade, Kusnoor Rd, Kalaburagi, Karnataka 585105 &bull; +91 88616 36951</p>
+      <p style="font-size: 0.8rem; margin-top: 0.75rem;">&copy; <span id="year"></span> One Bite Cafe. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Order Bag Button -->
+  <button class="cart-float" id="openCartBtn" aria-label="View Order Bag">
+    <span>Order Bag</span>
+    <span class="cart-count" id="cartCount">0</span>
+  </button>
+
+  <!-- Order Modal -->
+  <div class="modal-backdrop" id="cartModal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3 style="font-size: 1.55rem; color: var(--accent-forest);">Your Quick Order</h3>
+        <button class="close-modal" id="closeCartBtn" aria-label="Close">&times;</button>
+      </div>
+
+      <div class="order-type">
+        <select id="orderMode">
+          <option value="Dine-In">Dine-In (Swastik Arcade)</option>
+          <option value="Takeaway">Takeaway Pickup</option>
+          <option value="Delivery">Home Delivery (Kusnoor Rd Area)</option>
+        </select>
+      </div>
+
+      <div class="cart-items" id="cartItemsList"></div>
+
+      <div style="display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 1rem; color: var(--accent-forest);">
+        <span>Estimated Total</span>
+        <span id="cartTotal">&#8377;0</span>
+      </div>
+
+      <button class="btn btn-gold" style="width: 100%;" id="sendWhatsappOrder">Send Order via WhatsApp</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
